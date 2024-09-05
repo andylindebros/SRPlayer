@@ -8,7 +8,10 @@ I chose to use native SwiftUI views exclusively, adhering to the default SwiftUI
 I have used `SwiftFormat` to format the code using a local installed software on the machine.
 
 ## App Architecture
-The app uses a MVVM pattern with a channel list view and channel detail view.
+The app follows the MVVM pattern, featuring a channel list view and a channel detail view. Both views implement an instance of MediaPlayerView, which provides the media player functionality.
+The app includes two services:
+- SRService: Provides data from the API.
+- AudioService: Manages the audio player.
 
 ## Testing
 Due to time constraints on this project, I decided to focus only to test ChannelListViewModel and the services.
