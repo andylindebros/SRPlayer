@@ -4,7 +4,7 @@ import Combine
 import Foundation
 import MediaPlayer
 import NiceToHave
-@testable import TestAVPlayer
+@testable import SRPlayer
 import XCTest
 
 final class AudioServiceTests: XCTestCase {

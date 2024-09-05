@@ -1,4 +1,4 @@
-# TestAVPlayer
+# SR Player
 This app is an experiment utilizing the open API of SR and testing the AVPlayer. The project's goal is to list the available channels from SR in a view and play each channel individually from a detailed view. Additionally, it aims to implement a shared player on the list view for selected streams. The player should also support background playback and be controllable from the lock screen.
 
 ## Design

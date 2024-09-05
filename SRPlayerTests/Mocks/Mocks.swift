@@ -1,12 +1,12 @@
-import Combine
-import Foundation
-import SwiftUI
-import XCTest
 import AVFoundation
 import AVKit
+import Combine
+import Foundation
 import MediaPlayer
+import SwiftUI
+import XCTest
 
-@testable import TestAVPlayer
+@testable import SRPlayer
 
 actor SRServiceAPIClientMock: APIClientProvider {
     func fetch<Model: Sendable>(_: URLRequest) async throws -> Model where Model: Decodable {
@@ -77,16 +77,15 @@ actor SRServiceMock: SRServiceProvider {
     }
 }
 
-
 @Observable
 final class MPNowPlayingInfoCenterMock: MPNowPlayingInfoCenterProvider {
     var nowPlayingInfo: [String: Any]? {
         didSet {
             changeCount += 1
-            print("nowPlayingInfo", nowPlayingInfo)
         }
     }
-    var changeCount = 0
+
+    private(set) var changeCount = 0
 }
 
 actor Observer<Model>: ObservableObject {

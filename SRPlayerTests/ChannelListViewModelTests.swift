@@ -1,6 +1,6 @@
 import Foundation
 import NiceToHave
-@testable import TestAVPlayer
+@testable import SRPlayer
 import XCTest
 
 final class ChannelListViewModelTests: XCTestCase {
