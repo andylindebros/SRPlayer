@@ -1,0 +1,33 @@
+{
+  "originHash" : "7b344e3b6cfb4dd8cb4a3116747bab7b723c0464a90b63a3da9c4c0b475ae3c4",
+  "pins" : [
+    {
+      "identity" : "nuke",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kean/Nuke",
+      "state" : {
+        "revision" : "0ead44350d2737db384908569c012fe67c421e4d",
+        "version" : "12.8.0"
+      }
+    },
+    {
+      "identity" : "swiftnicetohave",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/andylindebros/SwiftNiceToHave",
+      "state" : {
+        "revision" : "d377ace54132528fd7ff4165ac68b9ca2b935550",
+        "version" : "1.0.5"
+      }
+    },
+    {
+      "identity" : "xmlcoder",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/CoreOffice/XMLCoder",
+      "state" : {
+        "revision" : "b1e944cbd0ef33787b13f639a5418d55b3bed501",
+        "version" : "0.17.1"
+      }
+    }
+  ],
+  "version" : 3
+}
