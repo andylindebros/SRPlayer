@@ -5,7 +5,7 @@ This app is an experiment utilizing the open API of SR and testing the AVPlayer.
 I chose to use native SwiftUI views exclusively, adhering to the default SwiftUI design. Instead of incorporating custom design elements, I decided to utilize only the colors and images provided by the API.
 
 ## Code optimization
-I have used `SwiftFormat` to format the code using a local installed software on the machine.
+I have formatted the code using the `SwiftFormat XCode extension`.
 
 ## App Architecture
 The app follows the MVVM pattern, featuring a channel list view and a channel detail view. Both views implement an instance of MediaPlayerView, which provides the media player functionality.
