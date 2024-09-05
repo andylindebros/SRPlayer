@@ -14,10 +14,10 @@ import SwiftUI
                     .maxWidth(padding * 3)
                 VStack(alignment: .leading) {
                     Text(model.title)
-                        .font(.caption).bold()
+                        .font(.callout).bold()
                         .lineLimit(1)
                     playerStateView
-                        .font(.caption2)
+                        .font(.callout)
                         .lineLimit(1)
                 }.frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
 
@@ -40,14 +40,14 @@ import SwiftUI
         switch audioService.state {
         case .playing:
             if audioService.isPlaying(model) {
-                Text("Playing")
+                Text("MediaPlayer.isPlaying")
             } else {
-                Text("Tap play to begin listening.")
+                Text("MediaPlayer.TapToStartPlay")
             }
         case let .error(message):
             Text(message)
         default:
-            Text("Tap play to begin listening.")
+            Text("MediaPlayer.TapToStartPlay")
         }
     }
 

@@ -30,6 +30,7 @@
 		1E51BACC2C8A34180009FBED /* ChannelListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E51BAC72C8A34170009FBED /* ChannelListViewModelTests.swift */; };
 		1E51BACD2C8A34180009FBED /* AudioServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E51BAC82C8A34170009FBED /* AudioServiceTests.swift */; };
 		1E51BACF2C8A357E0009FBED /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1E51BACE2C8A357E0009FBED /* README.md */; };
+		1E51BAD22C8A40D10009FBED /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 1E51BAD12C8A40D10009FBED /* Localizable.xcstrings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,7 +59,7 @@
 		1E51BAA52C8A320D0009FBED /* SRService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SRService.swift; sourceTree = "<group>"; };
 		1E51BAAF2C8A32310009FBED /* DictionaryResultBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryResultBuilder.swift; sourceTree = "<group>"; };
 		1E51BAB02C8A32310009FBED /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
-		1E51BAC02C8A32DE0009FBED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1E51BAC02C8A32DE0009FBED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E51BAC12C8A34170009FBED /* SRPlayerTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SRPlayerTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		1E51BAC22C8A34170009FBED /* TestHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestHelpers.swift; sourceTree = "<group>"; };
 		1E51BAC42C8A34170009FBED /* Mocks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mocks.swift; sourceTree = "<group>"; };
@@ -66,6 +67,7 @@
 		1E51BAC72C8A34170009FBED /* ChannelListViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelListViewModelTests.swift; sourceTree = "<group>"; };
 		1E51BAC82C8A34170009FBED /* AudioServiceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioServiceTests.swift; sourceTree = "<group>"; };
 		1E51BACE2C8A357E0009FBED /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1E51BAD12C8A40D10009FBED /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,11 +116,11 @@
 			isa = PBXGroup;
 			children = (
 				1E51BAC02C8A32DE0009FBED /* Info.plist */,
+				1E51BAD02C8A40AE0009FBED /* Resources */,
 				1E51BAB12C8A32310009FBED /* Utils */,
 				1E51BAA62C8A320D0009FBED /* Services */,
 				1E51BAA22C8A320D0009FBED /* Views */,
 				1E51BA622C8A31250009FBED /* SRPlayerApp.swift */,
-				1E51BA662C8A31260009FBED /* Assets.xcassets */,
 				1E51BA682C8A31260009FBED /* Preview Content */,
 			);
 			path = SRPlayer;
@@ -223,6 +225,15 @@
 			path = Mocks;
 			sourceTree = "<group>";
 		};
+		1E51BAD02C8A40AE0009FBED /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1E51BA662C8A31260009FBED /* Assets.xcassets */,
+				1E51BAD12C8A40D10009FBED /* Localizable.xcstrings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -318,6 +329,7 @@
 			files = (
 				1E51BACF2C8A357E0009FBED /* README.md in Resources */,
 				1E51BA6A2C8A31260009FBED /* Preview Assets.xcassets in Resources */,
+				1E51BAD22C8A40D10009FBED /* Localizable.xcstrings in Resources */,
 				1E51BA672C8A31260009FBED /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,0 +1,39 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "ChannelListView.Title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sveriges Radio"
+          }
+        }
+      }
+    },
+    "MediaPlayer.isPlaying" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Playing"
+          }
+        }
+      }
+    },
+    "MediaPlayer.TapToStartPlay" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tap play to begin listening."
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

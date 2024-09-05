@@ -1,2 +1,11 @@
 .DS_Store
-SRPlayer.xcodeproj/project.xcworkspace/xcuserdata/*
+*.swp
+*.lock
+*.xcuserstate
+*.xcuserdata
+*.xcuserdatad
+*.xcscmblueprint
+DerivedData/
+*.moved-aside
+*.xccheckout
+*.playground*

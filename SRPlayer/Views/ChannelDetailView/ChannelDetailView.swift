@@ -19,8 +19,9 @@ import SwiftUI
                 }
                 if let text = viewModel.channel.tagline {
                     Text(text)
-                        .font(.caption)
+                        .font(.body)
                         .padding(padding)
+
                 }
 
             }.frame(maxWidth: .infinity)

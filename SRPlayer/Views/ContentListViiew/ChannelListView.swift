@@ -14,7 +14,7 @@ import SwiftUI
     var body: some View {
         NavigationView {
             stateView
-                .navigationTitle("Sveriges Radio")
+                .navigationTitle("ChannelListView.Title")
                 .navigationBarTitleDisplayMode(.inline)
         }
         .task {
@@ -53,7 +53,7 @@ import SwiftUI
                                     }
                                 }
                                 Text(name)
-                                    .font(.caption)
+                                    .font(.body)
                                     .multilineTextAlignment(.leading)
                                     .lineLimit(2)
                             }
