@@ -217,7 +217,7 @@ protocol MPRemoteCommandProvider {
 
 extension MPRemoteCommand: MPRemoteCommandProvider {}
 
-// Since playCommand and pauseCommand cannot be mocked we need to extend MPRemoteCommand to conform to MPRemoteCommandProvider and wrap a computer value around it
+// Since playCommand and pauseCommand cannot be mocked we need to extend MPRemoteCommand to conform to MPRemoteCommandProvider and wrap a computed value around it.
 extension MPRemoteCommandCenter: MPRemoteCommandCenterProvider {
     var customPlayCommand: any MPRemoteCommandProvider {
         playCommand
