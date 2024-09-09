@@ -13,7 +13,7 @@ protocol SRServiceProvider: Sendable {
 struct SRService: SRServiceProvider {
     let client: APIClientProvider
     func fetchChannels() async throws -> [SRService.Channel] {
-        guard let url = URL(string: "http://api.sr.se/api/v2/channels") else {
+        guard let url = URL(string: "https://api.sr.se/api/v2/channels") else {
             throw SRServiceError.invalidServiceURL
         }
         let request = URLRequest(url: url)
